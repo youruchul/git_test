@@ -1,0 +1,11 @@
+.body{
+    min-width: 100vw;
+    min-height: 50vh;
+    text-align: left;
+}
+body{
+    margin-top: 100px;
+}
+.tbody{
+    min-width: 50vw;
+}

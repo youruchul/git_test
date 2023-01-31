@@ -1,0 +1,28 @@
+.row{
+    display: flex;
+}
+.col{
+    padding: 3px;
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+/* td > p{
+    font-size: 50px;
+} */
+table, tr, td, th{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.body{
+    min-width: 100vw;
+    min-height: 50vh;
+    text-align: center;
+}
+tr:hover{
+    background-color: blueviolet;
+}
+td:hover{
+    background-color: aqua;
+}

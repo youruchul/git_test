@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="example9.css">
+</head>
+<body>
+    <!-- <div class="box">123</div>
+    <div class="box">123</div>
+    <div class="box">123</div> -->
+
+    <!-- method GET, POST -->
+    <!-- GET url에 ? 값이 추가되는 것 -->
+    <!-- POST url에 ? 값이 추가 x , body 값이 추가되어 통신함 -->
+    <!-- spring mvc -->
+    <form method="get">
+        <label for="password" style="cursor: pointer;"> id : </label>
+        <input id="id" type="text" name="id">
+        <input type="password" id="password" name="password">
+        <select name="gender">
+            <option value="M">남</option>
+            <option value="F">여</option>
+        </select>
+        <br>
+        <label for="file">파일 업로드</label>
+        <input id="file" type="file" name="file" style="display: none;"> 
+        <input type="hidden" name="hidden" value="abc">
+        <input type="datetime-local" name="date">
+        <input type="submit" value="로그인">
+        <input type="reset" value="리셋">
+    </form>
+</body>
+</html>

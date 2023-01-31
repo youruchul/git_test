@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="example10.css"/>
+</head>
+<body>
+    <form method="get" style="margin: 0 auto; width: 15em;">
+        <table class="body">
+            <thead>
+                <th style="font-size: 20px;">
+                    playdata 수강신청
+                </th>
+            </thead>
+                <tbody class="tbody">
+                    <tr><td>
+                        <label for="id" style="cursor: pointer;"> 아이디 : </label>
+                        <input id="id" type="text" name="id">
+                    </td></tr>   
+                    <tr><td>
+                        <label for="password" style="cursor: pointer;"> 비밀번호 : </label>
+                        <input id="password" type="password" name="password">
+                    </tr></td>
+
+                    <tr><td>
+                        <label for="name" style="cursor: pointer;"> 이름 : </label>
+                        <input id="name" type="text" name="name">
+                    </tr></td>
+                    <tr><td>
+                        <label for="gender" style="cursor: pointer;"> 성별 : </label>
+                        <select name="gender">
+                            <option value="M">남</option>
+                            <option value="F">여</option>
+                        </select>
+                    </tr></td>
+                    <tr><td>
+                        <label for="birthday" style="cursor: pointer;"> 생일 : </label>
+                        <input id="birthday" type="date" name="birthday">
+                    </tr></td>
+                    <tr><td>
+                        <label for="phone_number" style="cursor: pointer;"> 전화번호 : </label>
+                        <input id="phone_number" type="text" name="phone_number">
+                    </tr></td>
+                    <tr><td>
+                        <label for="course" style="cursor: pointer;"> 과정명 : </label>
+                        <select name="course">
+
+                            <option value="A17">17기 데이터 애널리시스 트랙</option>
+                            <option value="A18">18기 데이터 애널리시스 트랙</option>
+                            <option value="E25">25기 데이터 엔지니어링 트랙</option>
+                            <option value="E26">26기 데이터 엔지니어링 트랙</option>
+                        </select>
+                    </tr></td>
+                    <tr>
+                        <td>
+                            <input type="submit" value="로그인">
+                            <input type="reset" value="리셋">
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
